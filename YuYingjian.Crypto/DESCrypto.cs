@@ -19,7 +19,7 @@ namespace YuYingjian.Crypto
 
                 if (keyBytes.Length < 8 || ivBytes.Length < 8)
                 {
-                    throw new Exception("Key与IV的长度不够，必须能够转换为至少8个Byte");
+                    throw new Exception("Key与IV的长度不够，必须能够转换为至少8个字节。");
                 }
 
                 _rgbKey = new byte[8];
