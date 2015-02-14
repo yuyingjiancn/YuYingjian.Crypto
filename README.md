@@ -10,6 +10,8 @@ visual studio 2013编写 .net framework 4.5.1
 using YuYingjian.Crypto;
 
 //下面的代码用于自己设定key和iv
+var key = "虞颖健在海宁一中工作，是高中信息技术教师";
+var iv = "虞颖健在海宁一中工作";
 DESCrypto.SetKeyAndIV(key=key, iv=iv); //key必须能转成至少8字节，iv8字节
 AESCrypto.SetKeyAndIV(key=key, iv=iv); //key必须能转成至少32字节，iv16字节
 
