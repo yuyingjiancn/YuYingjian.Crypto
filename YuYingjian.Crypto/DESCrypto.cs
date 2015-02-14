@@ -7,10 +7,10 @@ namespace YuYingjian.Crypto
 {
     public static class DESCrypto
     {
-        private static byte[] _rgbKey;
-        private static byte[] _rgbIV;
+        private static byte[] _rgbKey = { 0xE9, 0x87, 0x91, 0xE5, 0xB0, 0x91, 0xE6, 0x96 };
+        private static byte[] _rgbIV = { 0x90, 0xE5, 0x81, 0xB6, 0xE5, 0x83, 0x8F, 0x21 };
 
-        public static void SetKeyAndIV(string key = "虞颖健在海宁一中工作", string iv = "虞颖健是高中老师")
+        public static void SetKeyAndIV(string key = "金少斐偶像!前8个字节", string iv = "金少斐偶像!后8个字节")
         {
             if (_rgbKey == null || _rgbIV == null)
             {
