@@ -1,13 +1,15 @@
 ##YuYingjian.Crypto
-.Net的加密库0.0.1版。
+.Net的加密库0.0.2版。
 
 visual studio 2013编写 .net framework 4.5.1
-
-目前只是实现了DES和AES加密算法，并作为string上的扩展方法。
 
 ###Example
 ```cs
 using YuYingjian.Crypto;
+
+"str".ToBASE64().FromBASE64();
+"str".ToMD5();
+"str".ToSHA1();
 
 //下面的代码用于自己设定key和iv
 var key = "虞颖健在海宁一中工作，是高中信息技术教师";
