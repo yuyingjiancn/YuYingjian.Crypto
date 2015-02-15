@@ -41,6 +41,9 @@
   <ItemGroup>
     <Compile Include="AESCrypto.cs" />
     <Compile Include="DESCrypto.cs" />
+    <Compile Include="BASE64Crypto.cs" />
+    <Compile Include="SHA1Crypto.cs" />
+    <Compile Include="MD5Crypto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
