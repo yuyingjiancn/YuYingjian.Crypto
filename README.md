@@ -18,6 +18,8 @@ DESCrypto.SetKeyAndIV(key=key, iv=iv); //key必须能转成至少8字节，iv8�
 AESCrypto.SetKeyAndIV(key=key, iv=iv); //key必须能转成至少32字节，iv16字节
 
 "虞颖健".ToDES().ToAES().FromAES().FromDES(); //虞颖健
+
+"haha".To3DES().From3DES();
 ```
 
 ###NuGet
